@@ -1,3 +1,4 @@
+ 
 - name: configure DB server
   hosts: db
   become: yes
