@@ -1,11 +1,11 @@
 - name: delete app directory
-  ansible.bultin.file:
+  ansible.builtin.file:
     path: "{{ app_location }}"
     state: absent
   #ignore_errors: yes
 
 - name: create app directory
-  ansible.bultin.file:
+  ansible.builtin.file:
     path: "{{ app_location }}"
     state: directory
 
